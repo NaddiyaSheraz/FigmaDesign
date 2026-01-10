@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
 }
 
 /* ...........Navbar start........ */
@@ -9,13 +11,16 @@
     color: black;
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: #00000033; 
+    box-shadow: 0px 0px 20px 0px #0000001A;
     align-items: center;
+    height: 10vh;
 }
 
 #navleft{
     display: flex;
     gap: 0.5em;
+    align-items: center;
 }
 #navleft img{
     width: 20%;
@@ -29,6 +34,7 @@
 #navcen1{
     display: flex;
     gap: 0.5em;
+    align-items: center;
 }
 #navcen1 img{
     width: 5px;
@@ -36,5 +42,17 @@
 }
 #navcenter li{
     list-style: none;
+}
+#navright{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+#navright button{
+    background: #0066FF;
+    border: none;
+    height: 3em;
+    border-radius: 3px;
+    color: white;
 }
 /* ...........Navbar end........ */
