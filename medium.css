@@ -1,0 +1,52 @@
+/* <!-- ...........Navbar start........  --> */
+ #navbar {
+    background-color: rgb(198, 131, 43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+#navleft {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background-color: aqua;
+}
+.navc{
+    background-color: blue;
+    display: none;
+}
+
+.navicon-wrapper .navicon {
+    color: black;
+    font-size: 30px;
+    display: block;
+    margin: 0;
+}
+
+
+
+/* #navcenter {
+    position: absolute;
+    top: 100%;
+    left: 0;
+} */
+/* #navcenter {
+    transition: opacity 0.3s ease;
+}
+
+.navicon:hover{
+    cursor: pointer;
+}
+.navicon:hover ~ #navcenter{
+    opacity: 1;
+    cursor: pointer;
+    padding: 2em;
+  margin-top: 20px;
+  height: auto;
+  background-color: beige;
+  color: black;
+} */
+
+/* <!-- ...........Navbar end........  --> */

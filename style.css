@@ -7,7 +7,6 @@
 
 /* ...........Navbar start........ */
 #navbar{
-    background-color: antiquewhite;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -26,10 +25,15 @@
     width: 20%;
 }
 
-#navcenter{
+.navc{
     display: flex;
     gap: 1em;
-
+    justify-content: space-evenly;
+}
+#navcenter{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
 }
 #navcen1{
     display: flex;
@@ -40,8 +44,12 @@
     width: 5px;
     height: 7px;
 }
-#navcenter li{
+.nav-cen  {
+    display: flex;
     list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    gap: 1em;
 }
 #navright{
     display: flex;
@@ -55,4 +63,22 @@
     border-radius: 3px;
     color: white;
 }
+
+.navicon{
+    display: none;
+}
 /* ...........Navbar end........ */
+
+ /* <!-- ...........Section1 start........  --> */
+.section{
+    height: 70vh;
+    background-color: chartreuse;
+    display: flex;
+}
+
+#sec1_left h1{
+    font-weight: 900;
+    background: #000000;
+
+}
+/* <!-- ...........Section1 end........  --> */
