@@ -1,52 +1,44 @@
-/* <!-- ...........Navbar start........  --> */
- #navbar {
-    background-color: rgb(198, 131, 43);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2em;
+@media (max-width: 768px){
+
+    /* Show menu icon */
+    .navbar{
+        background-color: rgb(143, 143, 249);
+    }
+    .menu-icon{
+        display: block;
+        padding-right: 20px;
+    }
+
+    /* Hide menu */
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 200px;
+        background-color: white;
+        padding: 0.5em;
+        border-radius: 8px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        gap: 1em;
+        margin: 0;
+    }
+
+    /* Vertical menu */
+    .nav-links,
+    .nav-actions{
+        flex-direction: column;
+        align-items: center;
+        color: black;
+    }
+
+    .nav-links li{
+        color: black;
+    }
+
+    /* Hover to show */
+    .menu-icon:hover + .nav-menu{
+        display: flex;
+    }
 }
-
-#navleft {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    background-color: aqua;
-}
-.navc{
-    background-color: blue;
-    display: none;
-}
-
-.navicon-wrapper .navicon {
-    color: black;
-    font-size: 30px;
-    display: block;
-    margin: 0;
-}
-
-
-
-/* #navcenter {
-    position: absolute;
-    top: 100%;
-    left: 0;
-} */
-/* #navcenter {
-    transition: opacity 0.3s ease;
-}
-
-.navicon:hover{
-    cursor: pointer;
-}
-.navicon:hover ~ #navcenter{
-    opacity: 1;
-    cursor: pointer;
-    padding: 2em;
-  margin-top: 20px;
-  height: auto;
-  background-color: beige;
-  color: black;
-} */
-
-/* <!-- ...........Navbar end........  --> */

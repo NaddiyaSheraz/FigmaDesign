@@ -1,84 +1,61 @@
 *{
-    box-sizing: border-box;
     margin: 0;
-    font-family: Roboto;
-    font-weight: 400;
-}
-
-/* ...........Navbar start........ */
-#navbar{
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    background-color: #00000033; 
-    box-shadow: 0px 0px 20px 0px #0000001A;
-    align-items: center;
-    height: 10vh;
-}
-
-#navleft{
-    display: flex;
-    gap: 0.5em;
-    align-items: center;
-}
-#navleft img{
-    width: 20%;
-}
-
-.navc{
-    display: flex;
-    gap: 1em;
-    justify-content: space-evenly;
-}
-#navcenter{
-    display: flex;
-    gap: 0.5em;
-    align-items: center;
-}
-#navcen1{
-    display: flex;
-    gap: 0.5em;
-    align-items: center;
-}
-#navcen1 img{
-    width: 5px;
-    height: 7px;
-}
-.nav-cen  {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
     padding: 0;
-    gap: 1em;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-#navright{
+
+.navbar{
     display: flex;
-    gap: 0.5em;
+    justify-content: space-between;
     align-items: center;
+    padding: 1em 2em;
+    background-color: #c6832b;
 }
-#navright button{
-    background: #0066FF;
-    border: none;
-    height: 3em;
-    border-radius: 3px;
+
+/* Left */
+.nav-left h2{
     color: white;
 }
 
-.navicon{
+/* Menu Icon (Hidden on Desktop) */
+.menu-icon{
     display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
 }
-/* ...........Navbar end........ */
 
- /* <!-- ...........Section1 start........  --> */
-.section{
-    height: 70vh;
-    background-color: chartreuse;
+/* Menu */
+.nav-menu{
     display: flex;
+    align-items: center;
+    gap: 2em;
 }
 
-#sec1_left h1{
-    font-weight: 900;
-    background: #000000;
-
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
 }
-/* <!-- ...........Section1 end........  --> */
+
+.nav-links li{
+    cursor: pointer;
+    color: white;
+}
+
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: white;
+}
+
+.nav-actions button{
+    padding: 0.5em 1.2em;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
