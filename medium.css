@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+
 
     /* Show menu icon */
     .navbar{
@@ -41,4 +41,4 @@
     .menu-icon:hover + .nav-menu{
         display: flex;
     }
-}
+
